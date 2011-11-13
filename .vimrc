@@ -80,4 +80,5 @@ autocmd filetype html,xml set listchars-=tab:>.
 set pastetoggle=<F2>
 " enable mouse, best used for scrolling. Disable this if you want to use your mouse outside of vim while still in the terminal
 set mouse=a
-
+" If you forget to sudo before opening a file, this command does it after you've opened it.
+cmap w!! w !sudo tee % >/dev/null
