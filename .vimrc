@@ -79,6 +79,6 @@ autocmd filetype html,xml set listchars-=tab:>.
 " Set key for paste mode, this will prevent cascading indents while pasting large blocks of text into vim. It disables all intelligence while pasting.
 set pastetoggle=<F2>
 " enable mouse, best used for scrolling. Disable this if you want to use your mouse outside of vim while still in the terminal
-set mouse=a
+" set mouse=a -- Disabling this as its interfering with copy paste on putty
 " If you forget to sudo before opening a file, this command does it after you've opened it.
 cmap w!! w !sudo tee % >/dev/null
