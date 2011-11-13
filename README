@@ -1,0 +1,6 @@
+Steps to Setup
+
+1. Install git
+2. Pull repository into .vimrc directory in your home folder.
+3. Run setupLinks.sh which will setup a symbolic link from ~/.vimrc to the .vimrc in this directory.
+
